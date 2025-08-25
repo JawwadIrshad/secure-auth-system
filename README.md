@@ -1,3 +1,5 @@
+how to clone the Repo
+
 How to Run
 
 
