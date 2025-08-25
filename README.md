@@ -1,8 +1,8 @@
-how to clone the Repo
+*how to clone the Repo*
 
-git clone https://github.com/user/repo.git
+git clone https://github.com/JawwadIrshad/secure-auth-system.git
 
-How to Run
+*How to Run*
 
 
 pip install -r requirements.txt
