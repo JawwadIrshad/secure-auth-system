@@ -29,4 +29,4 @@ def reset_password(req: ResetPasswordRequest):
         raise HTTPException(status_code=400, detail="Invalid OTP")
     users_db[req.email]["hashed_password"] = hash_password(req.new_password)
     del otp_store[req.email]
-    return {"message": "Password reset successful"}
+    return {"message": "Password has been reset successful"}
