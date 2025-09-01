@@ -10,7 +10,7 @@ router = APIRouter()
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
 
-SECRET_KEY = " "
+SECRET_KEY = " " #insert your secret key
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_SECONDS = 3600
 
