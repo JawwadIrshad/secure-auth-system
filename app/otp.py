@@ -21,7 +21,7 @@ def send_otp(req: OTPRequest):
     otp = str(uuid.uuid4())[:6]
     otp_store[req.email] = otp
     print(f"OTP for {req.email}: {otp}")
-    return {"message": "OTP sent (simulated)"}
+    return {"message": "OTP has sent to (simulated)"}
 
 @router.post("/reset-password")
 def reset_password(req: ResetPasswordRequest):
